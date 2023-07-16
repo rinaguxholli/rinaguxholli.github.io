@@ -3938,3 +3938,11 @@ body.landing #main {
 	background-attachment: scroll, fixed;
 }
 
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+	animation: fadeIn 0.8s;
+}
